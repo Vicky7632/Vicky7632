@@ -1,99 +1,138 @@
 <div align="center">
 
-<!-- Typing SVG -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Full+Stack+%2F+MERN+Developer;GenAI+%2F+LangChain+Enthusiast;Competitive+Programmer+%40+Codeforces;Building+AI-powered+products+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2E9EF7&height=220&section=header&text=Vicky%20Kumar&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=I%20turn%20chai%20%E2%98%95%20into%20APIs%20%E2%9A%A1&descAlignY=58&descSize=20" width="100%"/>
+
+<a href="https://github.com/Vicky7632">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=2E9EF7&center=true&vCenter=true&width=720&lines=%24+whoami+%E2%86%92+Backend+%2B+Full-Stack+Engineer;%24+cat+current_obsession.txt+%E2%86%92+LLM+gateways+%F0%9F%A4%96;%24+redis-cli+GET+coffee+%E2%86%92+(nil)+%E2%98%95;%24+docker+compose+up+--build+%F0%9F%90%B3;%24+git+commit+-m+%22it+works+on+my+machine%22+%F0%9F%98%8E" alt="Typing SVG" />
 </a>
 
-🖥️ Full-Stack (MERN) Developer  |  🤖 GenAI / LangChain Enthusiast  |  🧩 Competitive Programmer  |  🎓 B.Tech CSE
-
-![Profile Views](https://komarev.com/ghpvc/?username=Vicky7632&color=2E9EF7&style=flat)
+![Profile Views](https://komarev.com/ghpvc/?username=Vicky7632&color=2E9EF7&style=for-the-badge&label=VISITORS)
+![Codeforces](https://img.shields.io/badge/Codeforces-Specialist_(max_1405)-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)
+![AtCoder](https://img.shields.io/badge/AtCoder-7_kyu-222?style=for-the-badge)
 
 </div>
 
 ---
 
-## 🎓 About Me
+## 🖥️ `~/vicky/about.sh`
 
-```python
-class VickyKumar:
-    def __init__(self):
-        self.name        = "Vicky Kumar"
-        self.college     = "Rungta College of Engineering & Technology, Bhilai"
-        self.degree      = "B.Tech CSE — 2022 to 2026"
-        self.location    = "Bengaluru,Karnataka,India"
-        self.stack       = ["MERN", "TypeScript", "Django", "FastAPI", "Flask"]
-        self.ai_focus    = ["Generative AI", "LangChain", "RAG", "AI Agents", "Vector DBs"]
-        self.cp_profile  = {"Codeforces": "Specialist (max 1405)", "AtCoder": "7 kyu"}
-        self.currently   = "Building AI-powered full-stack products 🚀"
+```bash
+$ ./about.sh
 
-    def say_hi(self):
-        print("Thanks for visiting! Let's build something amazing together 🤖")
-
-me = VickyKumar()
-me.say_hi()
+ ╭──────────────────────────────────────────────────────╮
+ │  👋  Hey! I'm Vicky — B.Tech CSE '26, Rungta College │
+ │  📍  Bengaluru, India                                │
+ │  🔭  Building : ai-proxy-router (LLM gateway)        │
+ │  🌱  Learning : distributed systems, k8s, system     │
+ │                 design, and how to cache everything  │
+ │  ⚔️  Weapon   : C++ for contests, Python for shipping│
+ │  💬  Ask me   : DSA, FastAPI, MERN, GenAI, RAG       │
+ │  ⚡  Fun fact : I mentor juniors in DSA and still    │
+ │                 TLE on my own submissions sometimes  │
+ ╰──────────────────────────────────────────────────────╯
 ```
 
 ---
 
-## 🚀 Featured Projects
+## 🔥 Latest Drop — [AI Proxy Router](https://github.com/Vicky7632/ai-proxy-router)
 
-| # | Project | Tech Used | Highlights |
-|---|---------|-----------|------------|
-| 🧠 | **LectureIQ** — AI lecture summarization platform | MERN, OpenAI API, WebSocket | Real-time transcription + AI-generated summaries |
-| 💻 | **CodeGurukul** — Coding practice & evaluation platform | MERN, Redis, Judge0, GenAI | AI-assisted code evaluation at scale |
+> *One endpoint. Many LLMs. Zero wasted tokens.*  
+> A self-hosted gateway that sits between your app and Groq / Gemini / OpenRouter, and refuses to pay twice for the same answer. 💸
 
----
+### 🎬 The life of a request (told like a thriller)
 
-## 🏆 Competitive Programming
+```mermaid
+flowchart LR
+    A(["🧑‍💻 Your app:<br/>'explain recursion'"]) --> B["🛡️ Bouncer<br/>API key + rate limit"]
+    B --> C{"⚡ Redis<br/>seen this exact question?"}
+    C -- "YES 🎉" --> Z(["✅ Instant answer<br/>cost: ₹0"])
+    C -- "no" --> D{"🧠 pgvector<br/>asked something similar?"}
+    D -- "YES 🎉<br/>(≥ 0.90 similar)" --> Z
+    D -- "no" --> E["🚦 Router<br/>pick a healthy provider"]
+    E --> F["🤖 Groq"]
+    E --> G["✨ Gemini"]
+    E --> H["🌐 OpenRouter"]
+    F --> I(["📝 Answer + save to both caches"])
+    G --> I
+    H --> I
+```
 
-- 🥈 **Codeforces Specialist** — max rating **1405**, 900+ problems solved
-- 🟢 **AtCoder** — 7 kyu
-- 🧩 **GeeksforGeeks** — 700+ problems solved at 95% accuracy
-- 🥇 Hackathon finalist in 3 college-level competitions
-- 👨‍🏫 Mentors juniors in Data Structures & Algorithms
+### 🧰 Superpowers
 
----
+| 🦸 Power | 📖 Translation |
+|---|---|
+| 🧠 **Semantic cache** | "What's recursion?" and "explain recursion" → same answer, one LLM call |
+| 🔐 **Paranoid by design** | API keys are shown *once*, stored as SHA-256 hashes. Even I can't read them |
+| 🌊 **Streaming (SSE)** | Tokens flow live. Half-finished streams never poison the cache |
+| 🚑 **Self-healing** | Provider down? Health tracking + cooldowns route around the pain |
+| 📊 **Dashboard** | React 19 + Vite UI: keys, playground, provider health, cache hit-rate |
+| ☸️ **Ships like a pro** | Docker Compose locally, Kubernetes manifests on Docker Desktop |
 
-## 🛠️ Tech Stack
+`Python 3.12` `FastAPI` `PostgreSQL + pgvector` `Redis` `React 19` `Vite` `Docker` `Kubernetes`
 
-**Languages & Core**
-
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Frontend / Backend**
-
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
-
-**AI / GenAI**
-
-![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/-Google%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-
-**Tools & Infra**
-
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+[📖 Architecture](https://github.com/Vicky7632/ai-proxy-router/blob/main/docs/ARCHITECTURE.md) · [📡 API Docs](https://github.com/Vicky7632/ai-proxy-router/blob/main/docs/API.md) · [⭐ Star it](https://github.com/Vicky7632/ai-proxy-router)
 
 ---
 
-## 📊 GitHub Analytics
+## 🗺️ `git log --oneline --graph` (my journey)
+
+```text
+* 2026  🚀  ai-proxy-router       → LLM gateway with 2-layer caching
+* 2026  🧠  LectureIQ             → lectures in, summaries out
+* Dec'25 💼  Veridia internship   → MERN Stack Developer
+* 2025  💻  CodeGurukul           → coding platform + AI evaluation
+* Sep'24 🌱  Digi Coders          → Full Stack Development Trainee
+* 2022  🎓  git init              → B.Tech CSE, Rungta College
+```
+
+---
+
+## 🧪 Other Experiments
+
+| | Project | Vibe |
+|---|---|---|
+| 🧠 | [**LectureIQ**](https://github.com/Vicky7632/LectureIQ) | AI summarizes your lectures so you can pretend you paid attention (MERN · OpenAI · WebSocket) |
+| 💻 | [**CodeGurukul**](https://github.com/Vicky7632/CodeGurukul-With-Ai) | LeetCode-style platform with Judge0 + AI feedback (MERN · Redis · GenAI) |
+| ⚛️ | [**ReactMajorProject**](https://github.com/Vicky7632/ReactMajorProject) | Where the React muscles were built |
+| 🤖 | [**FirstAiChatBot**](https://github.com/Vicky7632/FirstAiChatBot) | The origin story of my GenAI arc |
+
+---
+
+## 🧩 Competitive Programming Stats
+
+<div align="center">
+
+![CF](https://img.shields.io/badge/Codeforces-900%2B_solved-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)
+![GFG](https://img.shields.io/badge/GeeksforGeeks-700%2B_solved_%7C_95%25_accuracy-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white)
+![Hackathons](https://img.shields.io/badge/Hackathons-3x_Finalist-FF6B6B?style=flat-square)
+![Mentor](https://img.shields.io/badge/Mentoring-Juniors_in_DSA-8E75B2?style=flat-square)
+
+</div>
+
+---
+
+## ⚙️ `skills.config.json`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=py,cpp,js,ts,react,redux,tailwind,nodejs,express,fastapi,django,flask&perline=12" /><br/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,kubernetes,aws,git,github,vite,linux,vscode&perline=12" />
+
+</div>
+
+```jsonc
+{
+  "backend":   ["FastAPI", "Node/Express", "Django", "Flask", "SQLAlchemy", "Alembic"],
+  "data":      ["PostgreSQL", "pgvector", "Redis", "MySQL"],
+  "genai":     ["LangChain", "RAG", "Embeddings", "Vector DBs", "AI Agents", "Gemini", "OpenAI"],
+  "infra":     ["Docker", "Kubernetes", "AWS", "CI/CD"],
+  "superpower": "turning vague ideas into running containers 🐳"
+}
+```
+
+---
+
+## 📊 Stats (flex zone 💪)
 
 <div align="center">
 
@@ -102,23 +141,27 @@ me.say_hi()
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vicky7632&layout=compact&theme=tokyonight&hide_border=true" />
 
+<img src="https://github-profile-trophy.vercel.app/?username=Vicky7632&theme=tokyonight&no-frame=true&row=1&column=6" />
+
 </div>
 
 ---
 
-## 📫 Connect With Me
+## 🤝 Let's Build Something
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vicky-kumar-b390a1354/)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/VickyKumar4545)
-[![GeeksforGeeks](https://img.shields.io/badge/-GeeksforGeeks-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/vicky45)
-[![Codeforces](https://img.shields.io/badge/-Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/VickyKumar45)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vicky-kumar-b390a1354/)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/VickyKumar4545)
+[![GeeksforGeeks](https://img.shields.io/badge/-GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/vicky45)
+[![Codeforces](https://img.shields.io/badge/-Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/VickyKumar45)
+
+```text
+ Cache hit  ✅  you reached out, instant reply.
+ Cache miss ❌  I'll still answer, just with extra chai ☕
+```
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,50:203a43,100:0f2027&height=120&section=footer" width="100%"/>
 
 </div>
 
-<div align="center">
-
-⚡ *"From Patna to production — building full-stack, AI-powered software, one commit at a time."*
-
-</div>
