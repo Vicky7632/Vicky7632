@@ -12,112 +12,112 @@
 
 ---
 
-## 🎮 CHARACTER SELECT
+## ðŸŽ® CHARACTER SELECT
 
 ```text
- ╔═══════════════════════════════════════════════════════════╗
- ║  🧙  PLAYER   : Vicky Kumar                               ║
- ║  🛡️  CLASS    : Backend Artificer  (sub-class: Full-Stack) ║
- ║  🏰  GUILD    : Rungta College of Engg & Tech, Bhilai     ║
- ║  🗺️  REGION   : Bengaluru, India                           ║
- ║  ⚔️  WEAPONS  : C++ (contests)  ·  Python (shipping)       ║
- ║  🧪  MAGIC    : Redis ⚡  PostgreSQL 🐘  pgvector 🧠         ║
- ║  🐳  MOUNT    : Docker  →  upgrading to Kubernetes ☸️      ║
- ║  🎯  QUEST    : Make LLM APIs fast, cheap & reliable      ║
- ║  ☕  FUEL     : Chai (potion of +10 focus)                 ║
- ╚═══════════════════════════════════════════════════════════╝
+ â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
+ â•‘  ðŸ§™  PLAYER   : Vicky Kumar                               â•‘
+ â•‘  ðŸ›¡ï¸  CLASS    : Backend Artificer  (sub-class: Full-Stack) â•‘
+ â•‘  ðŸ°  GUILD    : Rungta College of Engg & Tech, Bhilai     â•‘
+ â•‘  ðŸ—ºï¸  REGION   : Bengaluru, India                           â•‘
+ â•‘  âš”ï¸  WEAPONS  : C++ (contests)  Â·  Python (shipping)       â•‘
+ â•‘  ðŸ§ª  MAGIC    : Redis âš¡  PostgreSQL ðŸ˜  pgvector ðŸ§          â•‘
+ â•‘  ðŸ³  MOUNT    : Docker  â†’  upgrading to Kubernetes â˜¸ï¸      â•‘
+ â•‘  ðŸŽ¯  QUEST    : Make LLM APIs fast, cheap & reliable      â•‘
+ â•‘  â˜•  FUEL     : Chai (potion of +10 focus)                 â•‘
+ â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 ```
 
-### 🏅 Achievements Unlocked
+### ðŸ… Achievements Unlocked
 
 | Badge | Title | How |
 |:-:|---|---|
-| 🦈 | **Pull Shark** | Earned on GitHub by getting pull requests merged |
-| 🎲 | **YOLO** | Earned on GitHub by merging a PR without a review (very brave, very legal) |
-| 🥇 | **Hackathon Finalist ×3** | Three college competitions, three finals |
-| 🥈 | **Codeforces Specialist** | Max rating **1405**, 900+ problems slain |
-| 🧙 | **Mentor** | Trains junior adventurers in DSA |
+| ðŸ¦ˆ | **Pull Shark** | Earned on GitHub by getting pull requests merged |
+| ðŸŽ² | **YOLO** | Earned on GitHub by merging a PR without a review (very brave, very legal) |
+| ðŸ¥‡ | **Hackathon Finalist Ã—3** | Three college competitions, three finals |
+| ðŸ¥ˆ | **Codeforces Specialist** | Max rating **1405**, 900+ problems slain |
+| ðŸ§™ | **Mentor** | Trains junior adventurers in DSA |
 
 ---
 
-## ⚔️ MAIN QUEST: [AI Proxy Router](https://github.com/Vicky7632/ai-proxy-router)
+## âš”ï¸ MAIN QUEST: [AI Proxy Router](https://github.com/Vicky7632/ai-proxy-router)
 
 > **Quest objective:** Build one gateway to rule all LLM providers, and stop paying twice for the same answer.  
-> **Boss:** 👹 *The Token Bill*  
-> **Reward:** ⚡ faster responses, 💸 lower cost, 😌 peaceful sleep
+> **Boss:** ðŸ‘¹ *The Token Bill*  
+> **Reward:** âš¡ faster responses, ðŸ’¸ lower cost, ðŸ˜Œ peaceful sleep
 
-### 🗺️ The Dungeon Map (every request must survive it)
+### ðŸ—ºï¸ The Dungeon Map (every request must survive it)
 
 ```mermaid
 flowchart TD
-    S(["🧑‍💻 Request enters the dungeon"]) --> G["🛡️ LEVEL 1: The Gatekeeper<br/>API key + rate limit + budget"]
-    G --> R{"⚡ LEVEL 2: Redis Vault<br/>exact answer already stored?"}
-    R -- "💎 TREASURE FOUND" --> W(["🏆 Victory! Instant reply"])
-    R -- "empty" --> P{"🧠 LEVEL 3: pgvector Library<br/>similar question answered before?"}
-    P -- "💎 TREASURE FOUND<br/>(similarity ≥ 0.90)" --> W
-    P -- "empty" --> B["🚦 LEVEL 4: The Router<br/>picks a healthy provider"]
-    B --> A1["🤖 Groq"]
-    B --> A2["✨ Gemini"]
-    B --> A3["🌐 OpenRouter"]
-    A1 --> L(["📝 Loot saved to both caches<br/>for the next adventurer"])
+    S(["ðŸ§‘â€ðŸ’» Request enters the dungeon"]) --> G["ðŸ›¡ï¸ LEVEL 1: The Gatekeeper<br/>API key + rate limit + budget"]
+    G --> R{"âš¡ LEVEL 2: Redis Vault<br/>exact answer already stored?"}
+    R -- "ðŸ’Ž TREASURE FOUND" --> W(["ðŸ† Victory! Instant reply"])
+    R -- "empty" --> P{"ðŸ§  LEVEL 3: pgvector Library<br/>similar question answered before?"}
+    P -- "ðŸ’Ž TREASURE FOUND<br/>(similarity â‰¥ 0.90)" --> W
+    P -- "empty" --> B["ðŸš¦ LEVEL 4: The Router<br/>picks a healthy provider"]
+    B --> A1["ðŸ¤– Groq"]
+    B --> A2["âœ¨ Gemini"]
+    B --> A3["ðŸŒ OpenRouter"]
+    A1 --> L(["ðŸ“ Loot saved to both caches<br/>for the next adventurer"])
     A2 --> L
     A3 --> L
 ```
 
-### 🎒 Inventory (what this repo carries)
+### ðŸŽ’ Inventory (what this repo carries)
 
 | Item | Effect |
 |---|---|
-| 🧠 **Semantic Cache Amulet** | "What is recursion?" ≈ "explain recursion" → one LLM call, not two |
-| 🔐 **Cloak of SHA-256** | API keys are shown once, stored only as hashes. Not even the dev can read them |
-| 🌊 **Streaming Boots** | Live SSE tokens. Broken streams are never cached |
-| 🚑 **Healing Potion** | Provider health tracking + cooldown when a provider goes down |
-| 📊 **Scrying Mirror** | React dashboard: keys, playground, provider health, cache hit-rate |
-| ☸️ **Dragon Mount** | Runs on Docker Compose and local Kubernetes |
+| ðŸ§  **Semantic Cache Amulet** | "What is recursion?" â‰ˆ "explain recursion" â†’ one LLM call, not two |
+| ðŸ” **Cloak of SHA-256** | API keys are shown once, stored only as hashes. Not even the dev can read them |
+| ðŸŒŠ **Streaming Boots** | Live SSE tokens. Broken streams are never cached |
+| ðŸš‘ **Healing Potion** | Provider health tracking + cooldown when a provider goes down |
+| ðŸ“Š **Scrying Mirror** | React dashboard: keys, playground, provider health, cache hit-rate |
+| â˜¸ï¸ **Dragon Mount** | Runs on Docker Compose and local Kubernetes |
 
 `Python 3.12` `FastAPI` `PostgreSQL + pgvector` `Redis` `React 19` `Vite` `Docker` `Kubernetes`
 
-[📜 Architecture Scroll](https://github.com/Vicky7632/ai-proxy-router/blob/main/docs/ARCHITECTURE.md) · [📡 API Spellbook](https://github.com/Vicky7632/ai-proxy-router/blob/main/docs/API.md) · [⭐ Give it a star](https://github.com/Vicky7632/ai-proxy-router)
+[ðŸ“œ Architecture Scroll](https://github.com/Vicky7632/ai-proxy-router/blob/main/docs/ARCHITECTURE.md) Â· [ðŸ“¡ API Spellbook](https://github.com/Vicky7632/ai-proxy-router/blob/main/docs/API.md) Â· [â­ Give it a star](https://github.com/Vicky7632/ai-proxy-router)
 
 ---
 
-## 🧭 SIDE QUESTS
+## ðŸ§­ SIDE QUESTS
 
-| 🏷️ | Quest | Loot |
+| ðŸ·ï¸ | Quest | Loot |
 |:-:|---|---|
-| 🧠 | [**LectureIQ**](https://github.com/Vicky7632/LectureIQ) | Turns long lectures into summaries *(MERN · OpenAI · WebSocket)* |
-| 💻 | [**CodeGurukul**](https://github.com/Vicky7632/CodeGurukul-With-Ai) | Coding arena with Judge0 + AI feedback *(MERN · Redis · GenAI)* |
-| ⚛️ | [**ReactMajorProject**](https://github.com/Vicky7632/ReactMajorProject) | The training grounds for React skills |
-| 🤖 | [**FirstAiChatBot**](https://github.com/Vicky7632/FirstAiChatBot) | The tutorial level of my GenAI arc |
+| ðŸ§  | [**LectureIQ**](https://github.com/Vicky7632/LectureIQ) | Turns long lectures into summaries *(MERN Â· OpenAI Â· WebSocket)* |
+| ðŸ’» | [**CodeGurukul**](https://github.com/Vicky7632/CodeGurukul-With-Ai) | Coding arena with Judge0 + AI feedback *(MERN Â· Redis Â· GenAI)* |
+| âš›ï¸ | [**ReactMajorProject**](https://github.com/Vicky7632/ReactMajorProject) | The training grounds for React skills |
+| ðŸ¤– | [**FirstAiChatBot**](https://github.com/Vicky7632/FirstAiChatBot) | The tutorial level of my GenAI arc |
 
 ---
 
-## 📜 QUEST LOG (the story so far)
+## ðŸ“œ QUEST LOG (the story so far)
 
 ```mermaid
 timeline
     title Vicky's Adventure
-    2022 : 🎓 Joined the guild : B.Tech CSE at Rungta College
-    2024 : 🌱 Digi Coders (Aug-Sep) : Full Stack Development Trainee
-    2025 : 💻 Built CodeGurukul : 💼 Veridia internship (Nov-Dec) : MERN Stack Developer
-    2026 : 🧠 Built LectureIQ : 🚀 Built ai-proxy-router : 🎯 Graduating from the guild
+    2022 : ðŸŽ“ Joined the guild : B.Tech CSE at Rungta College
+    2024 : ðŸŒ± Digi Coders (Aug-Sep) : Full Stack Development Trainee
+    2025 : ðŸ’» Built CodeGurukul : ðŸ’¼ Veridia internship (Nov-Dec) : MERN Stack Developer
+    2026 : ðŸ§  Built LectureIQ : ðŸš€ Built ai-proxy-router : ðŸŽ¯ Graduating from the guild
 ```
 
 ---
 
-## 👹 BOSS FIGHTS (Competitive Programming)
+## ðŸ‘¹ BOSS FIGHTS (Competitive Programming)
 
 <div align="center">
 
-![CF](https://img.shields.io/badge/⚔️_Codeforces-Specialist_|_max_1405_|_900%2B_solved-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)
-![AtCoder](https://img.shields.io/badge/🗡️_AtCoder-7_kyu-333?style=for-the-badge)
-![GFG](https://img.shields.io/badge/🛡️_GeeksforGeeks-700%2B_solved_|_95%25_accuracy-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)
+![CF](https://img.shields.io/badge/âš”ï¸_Codeforces-Specialist_|_max_1405_|_900%2B_solved-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)
+![AtCoder](https://img.shields.io/badge/ðŸ—¡ï¸_AtCoder-7_kyu-333?style=for-the-badge)
+![GFG](https://img.shields.io/badge/ðŸ›¡ï¸_GeeksforGeeks-700%2B_solved_|_95%25_accuracy-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)
 
 </div>
 
 ---
 
-## 🧰 SKILL TREE
+## ðŸ§° SKILL TREE
 
 <div align="center">
 
@@ -127,18 +127,18 @@ timeline
 </div>
 
 ```text
-🌳 SKILL TREE
- ├── ⚔️  Combat        → C++, DSA, problem solving
- ├── 🧙 Backend Magic  → FastAPI · Node/Express · Django · Flask · SQLAlchemy
- ├── 🧠 Dark Arts (AI) → LangChain · RAG · Embeddings · Vector DBs · AI Agents
- ├── 🏰 Fortress       → PostgreSQL · pgvector · Redis · MySQL
- ├── 🐳 Logistics      → Docker · Kubernetes · AWS · CI/CD
- └── 🎨 Illusion       → React · Redux · Tailwind · Vite · TypeScript
+ðŸŒ³ SKILL TREE
+ â”œâ”€â”€ âš”ï¸  Combat        â†’ C++, DSA, problem solving
+ â”œâ”€â”€ ðŸ§™ Backend Magic  â†’ FastAPI Â· Node/Express Â· Django Â· Flask Â· SQLAlchemy
+ â”œâ”€â”€ ðŸ§  Dark Arts (AI) â†’ LangChain Â· RAG Â· Embeddings Â· Vector DBs Â· AI Agents
+ â”œâ”€â”€ ðŸ° Fortress       â†’ PostgreSQL Â· pgvector Â· Redis Â· MySQL
+ â”œâ”€â”€ ðŸ³ Logistics      â†’ Docker Â· Kubernetes Â· AWS Â· CI/CD
+ â””â”€â”€ ðŸŽ¨ Illusion       â†’ React Â· Redux Â· Tailwind Â· Vite Â· TypeScript
 ```
 
 ---
 
-## 📈 PLAYER STATS
+## ðŸ“ˆ PLAYER STATS
 
 <div align="center">
 
@@ -152,9 +152,9 @@ timeline
 </div>
 
 <!--
-🐍 OPTIONAL: Contribution Snake
+ðŸ OPTIONAL: Contribution Snake
 Step 1: add .github/workflows/snake.yml to this repo (file given separately)
-Step 2: Actions tab → "Generate Snake" → Run workflow (wait ~1 min)
+Step 2: Actions tab â†’ "Generate Snake" â†’ Run workflow (wait ~1 min)
 Step 3: delete these comment markers (the opening and closing arrows) so the snake shows up
 
 <div align="center">
@@ -167,7 +167,7 @@ Step 3: delete these comment markers (the opening and closing arrows) so the sna
 
 ---
 
-## 💾 SAVE POINT & CONTACT
+## ðŸ’¾ SAVE POINT & CONTACT
 
 <div align="center">
 
@@ -177,12 +177,12 @@ Step 3: delete these comment markers (the opening and closing arrows) so the sna
 [![Codeforces](https://img.shields.io/badge/-Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/VickyKumar45)
 
 ```text
- ┌──────────────────────────────────────────┐
- │   🎮  GAME PAUSED                         │
- │                                          │
- │   [A] Hire me        [B] Collab on code  │
- │   [X] Talk DSA       [Y] Share chai ☕    │
- └──────────────────────────────────────────┘
+ â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+ â”‚   ðŸŽ®  GAME PAUSED                         â”‚
+ â”‚                                          â”‚
+ â”‚   [A] Hire me        [B] Collab on code  â”‚
+ â”‚   [X] Talk DSA       [Y] Share chai â˜•    â”‚
+ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:2E9EF7,50:203a43,100:0f2027&height=120&section=footer" width="100%"/>
